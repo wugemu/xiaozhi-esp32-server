@@ -123,7 +123,7 @@ TTS:
     # 山引擎语音一定要购买花钱，起步价30元，就有100并发了。如果用免费的只有2个并发，会经常报tts错误
     # 购买服务后，购买免费的音色后，可能要等半小时左右，才能使用。
     # 地址：https://console.volcengine.com/speech/service/8
-    voice: BV001_streaming
+    voice: BV034_streaming
     output_file: tmp/
     appid: 3616333260
     access_token: sKV6dluJYeyn6Eb7qcwAlZD42a1sdbcZ
