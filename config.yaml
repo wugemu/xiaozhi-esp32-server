@@ -1,4 +1,4 @@
-# 服务器基础配置(Basic server configuration)
+﻿# 服务器基础配置(Basic server configuration)
 server:
   # 服务器监听地址和端口(Server listening address and port)
   ip: 0.0.0.0
@@ -80,7 +80,7 @@ LLM:
     # 可在这里找到你的api key https://platform.deepseek.com/
     model_name: deepseek-chat
     url: https://api.deepseek.com
-    api_key: 你的deepseek api key
+    api_key: sk-7c73f2ad5d88439b8cfe455e50a0a462
   ChatGLMLLM:
     # 定义LLM API类型
     type: openai
@@ -88,7 +88,7 @@ LLM:
     # 可在这里找到你的api key https://bigmodel.cn/usercenter/proj-mgmt/apikeys
     model_name: glm-4-flash
     url: https://open.bigmodel.cn/api/paas/v4/
-    api_key: 你的chat-glm api key
+    api_key: f043a2ee14054c1fa5794c15a4482367.N3oGmIGER1WVctV3
   OllamaLLM:
     # 定义LLM API类型
     type: ollama
