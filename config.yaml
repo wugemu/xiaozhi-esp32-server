@@ -52,7 +52,7 @@ selected_module:
   # 将根据配置名称对应的type调用实际的LLM适配器
   LLM: AliLLM
   # TTS将根据配置名称对应的type调用实际的TTS适配器
-  TTS: EdgeTTS
+  TTS: DoubaoTTS
 
 ASR:
   FunASR:
@@ -125,8 +125,8 @@ TTS:
     # 地址：https://console.volcengine.com/speech/service/8
     voice: BV001_streaming
     output_file: tmp/
-    appid: 你的火山引擎语音合成服务appid
-    access_token: 你的火山引擎语音合成服务access_token
+    appid: 3616333260
+    access_token: sKV6dluJYeyn6Eb7qcwAlZD42a1sdbcZ
     cluster: volcano_tts
   CosyVoiceSiliconflow:
     type: siliconflow
