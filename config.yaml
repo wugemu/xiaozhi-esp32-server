@@ -50,9 +50,9 @@ selected_module:
   ASR: FunASR
   VAD: SileroVAD
   # 将根据配置名称对应的type调用实际的LLM适配器
-  LLM: AliLLM
+  LLM: ChatGLMLLM
   # TTS将根据配置名称对应的type调用实际的TTS适配器
-  TTS: DoubaoTTS
+  TTS: EdgeTTS
 
 ASR:
   FunASR:
