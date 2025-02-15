@@ -50,7 +50,7 @@ selected_module:
   ASR: FunASR
   VAD: SileroVAD
   # 将根据配置名称对应的type调用实际的LLM适配器
-  LLM: ChatGLMLLM
+  LLM: AliLLM
   # TTS将根据配置名称对应的type调用实际的TTS适配器
   TTS: EdgeTTS
 
@@ -73,7 +73,7 @@ LLM:
     # 可在这里找到你的 api_key https://bailian.console.aliyun.com/?apiKey=1#/api-key
     base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
     model_name: qwen-turbo
-    api_key: 你的deepseek api key
+    api_key: sk-9e8225bcaadf4dd5baa38423c5850aa4
   DeepSeekLLM:
     # 定义LLM API类型
     type: openai
