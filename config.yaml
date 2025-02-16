@@ -22,7 +22,7 @@ manager:
   ip: 0.0.0.0
   port: 8001
   # 请把密码设置10位数，且不能包含xiaozhi这几个字符
-  token: 123456lang
+  token: 123456Lang
 
 xiaozhi:
   type: hello
