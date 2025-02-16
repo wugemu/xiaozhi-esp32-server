@@ -116,8 +116,8 @@ def check_password(password):
     if "xiaozhi" in password:
         return False
 
-    if "123456" in password:
-        return False
+    # if "123456" in password:
+    #     return False
 
     # 如果满足所有条件，则返回True
     return True
